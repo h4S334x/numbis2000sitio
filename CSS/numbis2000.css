@@ -7,7 +7,7 @@ h1, h2 { font-family: 'Alfa Slab One', cursive; text-shadow: 4px 4px 2px rgba(15
 
 .hero {
 
-height: 60vh;
+height: 10vh;
 min-height: 400px;
 color:rgb(37, 40, 43);
 }
@@ -70,4 +70,7 @@ padding-top: 3rem;
 .testimonio {
     text-align: left;
     padding: 50px 20px;
+}
+.scroll_section {
+    scroll-margin-top: 200px;
 }

@@ -27,11 +27,15 @@
                         <a class="nav-link" href="#novedades">Novedades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#testimonios">Testimonios</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contactanos</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -44,14 +48,34 @@
                 <h4 style="text-align: center; padding-top: 2rem;">Almacena, compari, y accede a tus archivos desde
                     cualquier lugar del mundo, al instante, y cifrado
                     de
-                    extremo a extremo.</h4>
+                    extremo a extremo.
+
+                    Nuestra nube es la nube mas elegida en todo el mundo tanto por su confidencialidad integridad y
+                    disponibilidad de la informacion, miles de usuarios en todo el mundo confirman esto.</h4>
             </div>
         </div>
 
     </div>
     </div>
+    <div id="historia" class="row align-items-center pb-5 scroll_section">
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+            <img src="https://picsum.photos/seed/hist1/300/300" alt="historia 1" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 d-none d-sm-block">
+            <img src="https://picsum.photos/seed/hist2/300/300" alt="historia 2" class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+            <img src="https://picsum.photos/seed/hist3/300/300" alt="historia 3" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+            <h2>Historia</h2>
+            <p>Numbis 2000 nació en 2026 con una idea simple: que guardar y compartir
+                tus archivos fuera sencillo. Hoy miles de usuarios confían
+                su información en nuestra nube, rápida y cifrada de punta a punta.</p>
+        </div>
+    </div>
     <div class="row my-3">
-        <div id="novedades" class="col-md-5 offset-md-2 py-3">
+        <div id="novedades" class="col-md-5 offset-md-2 py-3 scroll_section">
             <h2>Novedades</h2>
             <ul class="lista-novedades">
                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
@@ -64,9 +88,59 @@
                             src="https://picsum.photos/seed/nov3/120/50">Cifrado total de extremo a extremo.</a></li>
             </ul>
         </div>
-        <div class="col-md-5 offset-md-2 py-3">
+        <div id="nosotros" class="row align-items-stretch my-3 staff py-4 scroll_section">
+            <div class="col-lg-8 offset-lg-2">
+                <h2>Nosotros</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://picsum.photos/seed/team1/300/200" class="card-img-top" alt="Carla Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Carla Reyes</h5>
+                                <p class="card-text">Fundadora y CEO. Lidera la visión de una nube libre y segura.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://picsum.photos/seed/team2/300/200" class="card-img-top" alt="Juan Gomez">
+                            <div class="card-body">
+                                <h5 class="card-title">Juan Gomez</h5>
+                                <p class="card-text">CEO. A cargo de la infraestructura y el cifrado E2E.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://picsum.photos/seed/team3/300/200" class="card-img-top"
+                                alt="Roberto Zavala">
+                            <div class="card-body">
+                                <h5 class="card-title">Roberto Zavala</h5>
+                                <p class="card-text">Jefe de ciberseguridad. Cuida que tus datos estén siempre
+                                    protegidos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://picsum.photos/seed/team4/300/200" class="card-img-top"
+                                alt="Luciano Figuero">
+                            <div class="card-body">
+                                <h5 class="card-title">Luciano Figuero</h5>
+                                <p class="card-text">Soporte. El equipo que te responde 24/7 cuando lo necesitás.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="testimonios" class="col-md-5 offset-md-2 py-3 scroll_section">
             <div class="rounded py-5 testimonios">
-                <div id="testimonios"></div>
                 <h2 class="text-left">Testimonios</h2>
                 <div id="carouselTestimonios" class="carousel slide" data-bs-ride="true">
 
@@ -116,6 +190,37 @@
     </div>
 
     </div>
+    <div id="contacto" class="row py-4 scroll_section">
+        <div class="col-md-8 offset-md-2">
+            <h2>Contactanos</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido">
+                </div>
+                <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                </div>
+                <div class="col-12">
+                    <label for="tel" class="form-label">Tel</label>
+                    <input type="text" class="form-control" id="tel" placeholder="...">
+                </div>
+                <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
 
     <footer>
         <p class="text-center">Diseñado por Augusto Martin</p>
